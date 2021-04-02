@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aaryanverma.yummyfy.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView3"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/bg"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:text="  Find Cafe/Bar  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="191dp" />
+
+    <Button
+        android:text="  Find Restaurant  "
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="95dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:elevation="0dp" />
+
+    <TextView
+        android:text="YummyFy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    />
+
+</RelativeLayout>
